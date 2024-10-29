@@ -1,0 +1,14 @@
+Day 1 : 29/10/2024
+
+Special Thanks to Kunal Kushwaha
+
+1. Initialising Git -> git init
+This would create .git file that tracks the changes in a project
+2. Checking the changes in a project -> git status
+This would show Changes not staged for commit, and changes added to commit
+
+A great example Kuna uses in the video is a photoshoot session in a wedding.
+People in the wedding->People queuing near the stage for photos->People taking pictures->Photographs being stored to the album >>
+Files in the project being tracked by .git-> 
+3. We use git add . to add changes to be committed-
+4. git commit -m "Msg to be added"  
