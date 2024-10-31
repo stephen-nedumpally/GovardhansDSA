@@ -52,3 +52,6 @@ Create a PULL Request ie requesting to be merged to the main branch happens on g
 git fetch --all --prune
 
 19. git reset --hard upstream/main
+or git pull upstream main -> to do it all in one command without fetch,etc
+
+git pull origin main -> to pull from your main branch
