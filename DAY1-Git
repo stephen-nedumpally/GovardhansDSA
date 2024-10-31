@@ -29,3 +29,20 @@ ie removing all the changes that you've added-> git stash
 11.git remote -v ->it would show all the urls attached to the project
 
 12.git push origin main
+
+Branches
+13. git branch <branchname> -> to create a new branch
+14. git checkout <branchname> -> to commit to this branch, ie head is pointing to this branch
+
+15. git merge <branchname> -> to merge another branch but you need to point to the main to merge to the main branch
+
+Working on existing project on github:
+Fork -> to copy an existing repo to your account
+16. git clone <url> -> to download the repository
+
+The original repo rl from which you've forked is called upstream
+17. git remote add upstream <original repo url>
+
+
+Create a PULL Request ie requesting to be merged to the main branch happens on github, but a branch can have only one pull request
+
