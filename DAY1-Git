@@ -11,4 +11,21 @@ A great example Kuna uses in the video is a photoshoot session in a wedding.
 People in the wedding->People queuing near the stage for photos->People taking pictures->Photographs being stored to the album >>
 Files in the project being tracked by .git-> 
 3. We use git add . to add changes to be committed-
-4. git commit -m "Msg to be added"  
+4. git commit -m "Msg to be added"
+
+After queuing people near stage(ie after git add .)-> we can remove them by using git rm --cache <file>
+
+5.Viewing the entire history of the project: git log
+6.Each commit in the project is a snapshot of the project at each point
+To reset the project to a previous snap-> git reset <commit id>
+7.To remove people from the queuing area and put them elsewhere such that they can be called later
+ie removing all the changes that you've added-> git stash
+8.To bring back the stashed changes-> git stash pop
+9.TO clear the stash-> git stash clear
+
+>Create a new Github Repository
+
+10.git remote add origin <url> to connect your local project to this repository
+11.git remote -v ->it would show all the urls attached to the project
+
+12.git push origin main
