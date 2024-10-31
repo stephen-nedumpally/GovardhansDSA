@@ -18,6 +18,8 @@ After queuing people near stage(ie after git add .)-> we can remove them by usin
 5.Viewing the entire history of the project: git log
 6.Each commit in the project is a snapshot of the project at each point
 To reset the project to a previous snap-> git reset <commit id>
+
+To push thisreset in commits -> git push origin main -f
 7.To remove people from the queuing area and put them elsewhere such that they can be called later
 ie removing all the changes that you've added-> git stash
 8.To bring back the stashed changes-> git stash pop
