@@ -33,7 +33,7 @@ ie removing all the changes that you've added-> git stash
 Branches
 13. git branch <branchname> -> to create a new branch
 14. git checkout <branchname> -> to commit to this branch, ie head is pointing to this branch
-
+     git push origin <branchname> -> to push changes to branch
 15. git merge <branchname> -> to merge another branch but you need to point to the main to merge to the main branch
 
 Working on existing project on github:
