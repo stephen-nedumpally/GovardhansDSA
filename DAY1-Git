@@ -48,3 +48,7 @@ The original repo rl from which you've forked is called upstream
 
 Create a PULL Request ie requesting to be merged to the main branch happens on github, but a branch can have only one pull request
 
+18. To make sure that your branch/repo is updated with the main/upstream:
+git fetch --all --prune
+
+19. git reset --hard upstream/main
